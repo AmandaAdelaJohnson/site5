@@ -1,0 +1,248 @@
+body {
+  display: flex;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+#container {
+  display: flex;
+    justify-content: center;
+}
+
+#pinwheel2 {
+  animation-name: blackmove;
+  animation-duration: 5s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colorchange {
+  0% {background-color: : pink;}
+  25% {background-color: red;}
+  50% {background-color: blue; transform-origin: bottom;}
+  75% {background-color: green;}
+  100% {background-color: pink;}
+}
+
+@keyframes blackmove {
+    0% {transform:scale(1,1);}
+    50% {transform: scale(.5,.5);}
+    100% {transform:scale(1,1);}
+  }
+
+#parallelogram1 {
+  position: absolute;
+	width: 200px;
+	height: 100px;
+	background: #555;
+  transform: skew(60deg);
+  transform-origin: center;
+  animation-name: colorchange;
+  animation-duration: 5s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+}
+
+.parallelogram1 {
+  top: 400px;
+  left: 980px;
+}
+
+#parallelogram2 {
+  position: absolute;
+	width: 200px;
+	height: 100px;
+	background: #555;
+  transform: rotate(30deg) skew(60deg);
+  transform-origin: center;
+  animation-name: colorchange;
+  animation-duration: 5s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+}
+
+.parallelogram2 {
+    top: 490px;
+    left: 925px;
+}
+
+
+#parallelogram3 {
+  position: absolute;
+	width: 200px;
+	height: 100px;
+	background: #555;
+  transform: rotate(-30deg) skew(60deg);
+  transform-origin: center;
+  animation-name: colorchange;
+  animation-duration: 5s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+}
+
+.parallelogram3 {
+  top: 295px;
+  left: 980px;
+}
+
+#parallelogram4 {
+  position: absolute;
+	width: 200px;
+	height: 100px;
+	background: #555;
+  transform: rotate(-60deg) skew(60deg);
+  transform-origin: center;
+  animation-name: colorchange;
+  animation-duration: 5s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+}
+
+.parallelogram4 {
+  top: 205px;
+  left: 925px;
+}
+
+#parallelogram5 {
+  position: absolute;
+	width: 200px;
+	height: 100px;
+	background: #555;
+  transform: rotate(-90deg) skew(60deg);
+  transform-origin: center;
+  animation-name: colorchange; spin;
+  animation-duration: 5s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+}
+
+.parallelogram5 {
+  top: 150px;
+  left: 835px;
+}
+
+#parallelogram6 {
+  position: absolute;
+	width: 200px;
+	height: 100px;
+	background: #555;
+  transform: rotate(60deg) skew(60deg);
+  transform-origin: center;
+  animation-name: colorchange;
+  animation-duration: 5s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+}
+
+.parallelogram6 {
+  top: 545px;
+  left: 835px;
+}
+
+#parallelogram7 {
+  position: absolute;
+	width: 200px;
+	height: 100px;
+	background: #555;
+  transform: rotate(90deg) skew(60deg);
+  transform-origin: center;
+  animation-name: colorchange;
+  animation-duration: 5s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+}
+
+.parallelogram7 {
+  top: 545px;
+  left: 730px;
+}
+
+#parallelogram8 {
+  position: absolute;
+	width: 200px;
+	height: 100px;
+	background: #555;
+  transform: rotate(120deg) skew(60deg);
+  transform-origin: center;
+  animation-name: colorchange;
+  animation-duration: 5s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+}
+
+.parallelogram8 {
+  top: 490px;
+  left: 640px;
+}
+
+#parallelogram9 {
+  position: absolute;
+	width: 200px;
+	height: 100px;
+	background: #555;
+  transform: rotate(150deg) skew(60deg);
+  transform-origin: center;
+  animation-name: colorchange;
+  animation-duration: 5s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+}
+
+.parallelogram9 {
+  top: 400px;
+  left: 585px;
+}
+
+#parallelogram10 {
+  position: absolute;
+	width: 200px;
+	height: 100px;
+	background: #555;
+  transform: rotate(180deg) skew(60deg);
+  transform-origin: center;
+  animation-name: colorchange;
+  animation-duration: 5s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+}
+
+.parallelogram10 {
+  top: 295px;
+  left: 585px;
+}
+
+#parallelogram11 {
+  position: absolute;
+	width: 200px;
+	height: 100px;
+	background: #555;
+  transform: rotate(210deg) skew(60deg);
+  transform-origin: center;
+  animation-name: colorchange;
+  animation-duration: 5s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+}
+
+.parallelogram11 {
+  top: 205px;
+  left: 640px;
+}
+
+#parallelogram12 {
+  position: absolute;
+	width: 200px;
+	height: 100px;
+	background: #555;
+  transform: rotate(240deg) skew(60deg);
+  transform-origin: center;
+  animation-name: colorchange;
+  animation-duration: 5s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+}
+
+.parallelogram12 {
+  top: 150px;
+  left: 730px;
+}
